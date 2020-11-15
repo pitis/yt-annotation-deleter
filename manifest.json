@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "YT Annotation Deleter",
+  "version": "0.1.0",
+  "description": "Delete annoying annotations from YT",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "css": ["styles.css"]
+    }
+  ]
+}
