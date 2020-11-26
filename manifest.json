@@ -4,7 +4,6 @@
   "version": "1.0.0",
   "description": "Delete annoying annotations from YT",
   "icons": { "16": "icon16.png", "48": "icon48.png", "128": "icon128.png" },
-  "permissions": ["activeTab"],
   "content_scripts": [
     {
       "matches": ["https://www.youtube.com/*"],
