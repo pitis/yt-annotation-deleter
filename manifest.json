@@ -1,5 +1,5 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "YT Annotation Deleter",
   "version": "1.0.0",
   "description": "Delete annoying annotations from YT",
